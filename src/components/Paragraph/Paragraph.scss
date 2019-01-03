@@ -1,0 +1,35 @@
+.error {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.container {
+  margin: 50px auto 0;
+  max-width: 1280px;
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 125px;
+    margin-top: 25px;
+    padding: 10px;
+  }
+  .buttons {
+    width: 150px;
+    display: flex;
+    margin-top: 20px;
+  }
+  .buttons button {
+    padding: 10px;
+  }
+  .buttons button:nth-of-type(2) {
+    margin-left: 20px;
+  }
+}

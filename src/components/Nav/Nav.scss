@@ -1,0 +1,38 @@
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  font-family: "Harry Potter", serif;
+  .link a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  .link a:hover {
+    color: red;
+    transition: 1.5s;
+  }
+  .signIn {
+    padding: 20px;
+    margin-right: 50px;
+    font-size: 30px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+      color: red;
+      transition: 1.5s;
+    }
+  }
+}
+
+@font-face {
+  font-family: "Harry Potter";
+  src: url(../../assets/font.TTF);
+}

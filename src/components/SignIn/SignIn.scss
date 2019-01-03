@@ -1,0 +1,22 @@
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 0 auto;
+  label {
+    margin-top: 15px;
+  }
+  input {
+    margin-top: 15px;
+    padding: 5px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+.form p {
+  text-align: center;
+  margin: 0 auto;
+  color: red;
+}
